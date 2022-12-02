@@ -1,0 +1,35 @@
+body {
+    font-size: 14pt;
+    user-select: text;
+}
+
+ul {
+    list-style-type: "—  ";
+}
+
+.rl-style {
+    text-decoration: none;
+    color: black;
+}
+
+.bold-header {
+    font-weight: bold;
+}
+
+.normal-header {
+    font-weight: normal;
+}
+
+.correct {
+    background-color: rgb(145, 241, 145);
+}
+
+pre {
+    font-family: Consolas;
+    background-color: rgb(140, 140, 140);
+}
+
+.code-example {
+    font-family: Consolas;
+    background-color: rgb(140, 140, 140);
+}
