@@ -42,7 +42,7 @@
                                 link
                                 >
                                     <v-list-item-content>
-                                        История и архитектура PostgreSQL. Установка и базовые принципы администрирования PostgreSQL на Windows и Linux
+                                        Введение в Flask
                                     </v-list-item-content>
                                 </v-list-item>
                             </router-link>
@@ -52,17 +52,7 @@
                                 link
                                 >
                                     <v-list-item-content>
-                                        Базы данных, таблицы, наполнение таблиц, простые запросы, изменение и удаление данных.  Соединения и подзапросы, группировки и сортировки
-                                    </v-list-item-content>
-                                </v-list-item>
-                            </router-link>
-
-                            <router-link class="rl-style" to="/section3">
-                                <v-list-item
-                                link
-                                >
-                                    <v-list-item-content>
-                                        Работа с демонстрационной базой данных. Оконные и агрегатные функции
+                                        Конфигурация web-приложения    
                                     </v-list-item-content>
                                 </v-list-item>
                             </router-link>

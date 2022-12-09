@@ -4,7 +4,6 @@ import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 import Section1 from '@/views/Section1.vue'
 import Section2 from '@/views/Section2.vue'
-import Section3 from '@/views/Section3.vue'
 import Test from '@/views/Test.vue'
 import Tasks from '@/views/Tasks.vue'
 
@@ -30,11 +29,6 @@ const routes = [
     path: '/section2',
     name: 'Section2',
     component: Section2
-  },
-  {
-    path: '/section3',
-    name: 'Section3',
-    component: Section3
   },
   {
     path: '/test',

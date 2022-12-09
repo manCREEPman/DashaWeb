@@ -10,1089 +10,379 @@
         <span class="bold-header">
             Шкала оценивания прохождения теста
         </span>
-
-        <v-container class="grey lighten-5"
-        >
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              Номер вопроса
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              Количество баллов
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              Номер вопроса
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              Количество баллов
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              11
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              2
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              12
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              5
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              3
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              2
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              13
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              5
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              4
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              14
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              5
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              5
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              15
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              6
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              2
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              16
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              2
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              7
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              17
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              8
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              18
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              9
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              19
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              2
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              10
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              20
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              1
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              Итого баллов
-              </v-card>
-            </v-col>
-
-            <v-col
-            >
-              <v-card
-                class="pa-2 align-self-auto flex-grow-1"
-                outlined
-                tile
-                style="height: 100%"
-              >
-              36
-              </v-card>
-            </v-col>
-          </v-row>
-        </v-container>
+        <p>
+          Количество баллов за задание 1 – 2
+          Количество баллов за остальные задания – 1
+          Макс. балл – 21.
+        </p>
 
         <p>
-            Тест считается пройденным успешно, если набрано от 33 до 36 баллов.
-            Тест считается пройденным, если набрано от 10 до 32 баллов.
+            Тест считается пройденным успешно, если набрано от 17 до 21 баллов.
+            <br>
+            Тест считается пройденным, если набрано от 10 до 16 баллов.
+            <br>
             Тест считается проваленным, если набрано от 0 до 9 баллов.
         </p>
 
 
         <ol>
+
+          <li class="bold-header">
+            Выберите верные утверждения:
+                <div class="normal-header">
+                    <v-checkbox :disabled="q1_1d" v-model="question1_1" label="Flask - микрофреймворк. Приставка 'микро' означает, что для создания базового web-приложения необходимо наличие дополнительных библиотек."></v-checkbox>
+                    <v-checkbox :disabled="q1_2d" v-model="question1_2" label="Flask построен на библиотеке Werkzueg - комплексной библиотеке для поддержки WSGI-приложений и шаблонизаторе Jinja2 (который ничем не отличается от шаблонизатора Django)"></v-checkbox>
+                    <v-checkbox :disabled="q1_3d" v-model="question1_3" label="За отрисовку шаблонов в Flask отвечает функция render_template." :class="{correct: answersCheck}"></v-checkbox>
+                    <v-checkbox :disabled="q1_4d" v-model="question1_4" label="Flask позволяет делать части URL динамически меняющимися и задействовать в функции несколько правил." :class="{correct: answersCheck}"></v-checkbox>
+                </div>
+            </li>
             <li class="bold-header">
-                Выберите правильное определение PostgreSQL
+              Для того чтобы указать Flask, какой из URL должен запускать нашу функцию, используется декоратор:
                 <div class="normal-header">
                     <v-radio-group
-                    v-model="question1"
-                    :disabled="q1d"
+                    v-model="question2"
+                    :disabled="q2d"
                     >
                         <v-radio
-                        label="PostgreSQL - это язык программирования"
+                        label="url()"
                         value="1"
                         >
                         </v-radio>
                         <v-radio
-                        label="PostgreSQL - это объектно-реляционная система создания таблиц"
+                        label="path()"
                         value="2"
                         >
                         </v-radio>
                         <v-radio
-                        label="PostgreSQL - это объектно-реляционная система управления базами данных"
+                        label="route()"
                         value="3"
                         :class="{ correct: answersCheck }"
                         >
                         </v-radio>
-                        <v-radio
-                        label="PostgreSQL - это объектно-реляционная система создания пользователей"
-                        value="4"
-                        >
-                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Прародителем PostreSQL была СУБД:
-                <div class="normal-header">
-                    <v-radio-group
-                    v-model="question2"
-                    :disabled="q2d">
-                        <v-radio
-                        label="Oracle"
-                        value="1"
-                        >
-                        </v-radio>
-                        <v-radio
-                        label="POSTGRES"
-                        value="2"
-                        :class="{ correct: answersCheck}"
-                        >
-                        </v-radio>
-                        <v-radio
-                        label="Caché"
-                        value="3"
-                        >
-                        </v-radio>
-                    </v-radio-group>
+              Функция … позволяет возвращать ответы в формате application/json, передавая в качестве параметра словарь с какими-либо данными.
+              <div class="normal-header">
+                    <v-text-field v-model="question3" :disabled="q3d" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q3d" class="correct" disabled value="jsonify" label="Ответ:"></v-text-field>
                 </div>
             </li>
             <li class="bold-header">
-                Встроенные языки, с которыми работает PostreSQL
-                <div class="normal-header">
-                    <v-container>
-                        <v-row
-                            no-gutters
-                        >   
-                            <v-col
-                            >
-                            <v-card
-                                class="pa-2 align-self-auto"
-                                outlined
-                                tile
-                                style="height: 100%"
-                            >
-                            
-                            </v-card>
-                            </v-col>
-
-                            <v-col
-                            >
-                            <v-card
-                                class="pa-2 align-self-auto flex-grow-1"
-                                outlined
-                                tile
-                                style="height: 100%"
-                            >
-                            Работает
-                            </v-card>
-                            </v-col>
-
-                            <v-col
-                            >
-                            <v-card
-                                class="pa-2 align-self-auto flex-grow-1"
-                                outlined
-                                tile
-                                style="height: 100%"
-                            >
-                            Не работает
-                            </v-card>
-                            </v-col>
-                        </v-row>
-                        <v-radio-group :v-model="question31" :disabled="q31d">
-                        <v-row
-                            no-gutters
-                        >   
-                                <v-col
-                                >
-                                <v-card
-                                    class="pa-2 align-self-auto"
-                                    outlined
-                                    tile
-                                    style="height: 100%"
-                                >
-                                    PL/pgSQL
-                                </v-card>
-                                </v-col>
-    
-                                <v-col
-                                >
-                                <v-card
-                                    class="pa-2 align-self-auto flex-grow-1"
-                                    outlined
-                                    tile
-                                    style="height: 100%"
-                                >
-                                    <v-radio value="1" :class="{ correct: answersCheck }"></v-radio>
-                                </v-card>
-                                </v-col>
-    
-                                <v-col
-                                >
-                                <v-card
-                                    class="pa-2 align-self-auto flex-grow-1"
-                                    outlined
-                                    tile
-                                    style="height: 100%"
-                                >
-                                    <v-radio value="2"></v-radio>
-                                </v-card>
-                                </v-col>
-                            </v-row>
-                        </v-radio-group>
-                        <v-radio-group :v-model="question32" :disabled="q32d">
-                        <v-row
-                            no-gutters
-                        >
-                            <v-col
-                            >
-                            <v-card
-                                class="pa-2 align-self-auto"
-                                outlined
-                                tile
-                                style="height: 100%"
-                            >
-                                PL/Python
-                            </v-card>
-                            </v-col>
-                            
-
-                            <v-col
-                            >
-                            <v-card
-                                class="pa-2 align-self-auto flex-grow-1"
-                                outlined
-                                tile
-                                style="height: 100%"
-                            >
-                                <v-radio value="1" :class="{ correct: answersCheck}"></v-radio>
-                            </v-card>
-                            </v-col>
-
-                            <v-col
-                            >
-                            <v-card
-                                class="pa-2 align-self-auto flex-grow-1"
-                                outlined
-                                tile
-                                style="height: 100%"
-                            >
-                                <v-radio value="2"></v-radio>
-                            </v-card>
-                            </v-col>
-                        </v-row>
-                        </v-radio-group>
-                        <v-radio-group :v-model="question33" :disabled="q33d">
-                            <v-row
-                                no-gutters
-                            >
-                                <v-col
-                                >
-                                <v-card
-                                    class="pa-2 align-self-auto"
-                                    outlined
-                                    tile
-                                    style="height: 100%"
-                                >
-                                    PL/HTML
-                                </v-card>
-                                </v-col>
-                                    <v-col
-                                    >
-                                    <v-card
-                                        class="pa-2 align-self-auto flex-grow-1"
-                                        outlined
-                                        tile
-                                        style="height: 100%"
-                                    >
-                                        <v-radio value="1"></v-radio>
-                                    </v-card>
-                                    </v-col>
-
-                                    <v-col
-                                    >
-                                    <v-card
-                                        class="pa-2 align-self-auto flex-grow-1"
-                                        outlined
-                                        tile
-                                        style="height: 100%"
-                                    >
-                                        <v-radio value="2" :class="{ correct: answersCheck }"></v-radio>
-                                    </v-card>
-                                    </v-col>
-                                </v-row>
-                        </v-radio-group>
-                        <v-radio-group :v-model="question34" :disabled="q34d">
-                            <v-row
-                                no-gutters
-                            >
-                                <v-col
-                                >
-                                <v-card
-                                    class="pa-2 align-self-auto"
-                                    outlined
-                                    tile
-                                    style="height: 100%"
-                                >
-                                    PL/Ruby	
-                                </v-card>
-                                </v-col>
-                                
-                                    <v-col
-                                    >
-                                    <v-card
-                                        class="pa-2 align-self-auto flex-grow-1"
-                                        outlined
-                                        tile
-                                        style="height: 100%"
-                                    >
-                                        <v-radio value="1" :class="{ correct: answersCheck }"></v-radio>
-                                    </v-card>
-                                    </v-col>
-
-                                    <v-col
-                                    >
-                                    <v-card
-                                        class="pa-2 align-self-auto flex-grow-1"
-                                        outlined
-                                        tile
-                                        style="height: 100%"
-                                    >
-                                        <v-radio value="2"></v-radio>
-                                    </v-card>
-                                    </v-col>
-                                </v-row>
-                        </v-radio-group>
-                    </v-container>
+              Чтобы перенаправить пользователя в иную конечную точку, используется функция: …
+              <div class="normal-header">
+                    <v-text-field v-model="question4" :disabled="q4d" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q4d" class="correct" disabled value="redirect" label="Ответ:"></v-text-field>
                 </div>
             </li>
             <li class="bold-header">
-                Как называется графический клиент для PostreSQL?
+                Для того чтобы преждевременно прервать запрос с кодом ошибки, используется функция: …
                 <div class="normal-header">
-                    <v-radio-group
-                    v-model="question4"
-                    :disabled="q4d"
-                    >
-                        <v-radio
-                        value="1"
-                        label="pgAdmin"
-                        :class="{correct: answersCheck}"
-                        >
-                        </v-radio>
-                        <v-radio
-                        value="2"
-                        label="psql"
-                        >
-                        </v-radio>
-                        <v-radio
-                        value="3"
-                        label="PostgreSQL"
-                        >
-                        </v-radio>
-                    </v-radio-group>
+                    <v-text-field v-model="question5" :disabled="q5d" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q5d" class="correct" disabled value="abort" label="Ответ:"></v-text-field>
                 </div>
             </li>
             <li class="bold-header">
-                Необходимо ли использовать dummy-таблицу при математических расчётах?
-                <div class="normal-header">
-                    <v-radio-group
-                    v-model="question5"
-                    :disabled="q5d"
-                    >
-                        <v-radio
-                        value="1"
-                        label="Да"
-                        >
-                        </v-radio>
-                        <v-radio
-                        value="2"
-                        label="Нет"
-                        :class="{correct: answersCheck}"
-                        >
-                        </v-radio>
-                    </v-radio-group>
-                </div>
-            </li>
-            <li class="bold-header">
-                Какой результат вернёт запрос SELECT 3/2; ?
-                <div class="normal-header">
+              Для того чтобы видоизменить страницу с ошибкой, используется декоратор: …
+              <div class="normal-header">
                     <v-text-field v-model="question6" :disabled="q6d" label="Ответ:"></v-text-field>
-                    <v-text-field v-if="q6d" class="correct" disabled value="1" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q6d" class="correct" disabled value="errorhandler" label="Ответ:"></v-text-field>
                 </div>
             </li>
             <li class="bold-header">
-               Какой результат вернёт запрос?
-               <v-img src="@/assets/1.png" width="500" height="200"></v-img>
-                <div class="normal-header">
+              Для вывода ошибок или отладочной информации можно использовать журналирование. Для этого можно воспользоваться полем:
+              <div class="normal-header">
                     <v-radio-group
                     v-model="question7"
-                    :disabled="q7d">
-                        <v-radio value="1" label="5"></v-radio>
-                        <v-radio value="2" :class="{correct: answersCheck}" label="4"></v-radio>
-                        <v-radio value="3" label="Выведет ошибку"></v-radio>
+                    :disabled="q7d"
+                    >
+                        <v-radio
+                        label="debugger"
+                        value="1"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="logger"
+                        value="2"
+                        :class="{ correct: answersCheck }"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="recorder"
+                        value="3"
+                        
+                        >
+                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                С помощью какой команды можно изменить структуру таблицы?
-                <div class="normal-header">
+              Если флаг SESSION_REFRESH_EACH_REQUEST установлен в True (по умолчанию):
+              <div class="normal-header">
                     <v-radio-group
-                    :disabled="q8d"
                     v-model="question8"
+                    :disabled="q8d"
                     >
-                        <v-radio value="1" label="INSERT"></v-radio>
-                        <v-radio value="2" label="UPDATE"></v-radio>
-                        <v-radio value="3" label="ALTER" :class="{correct: answersCheck}"></v-radio>
+                        <v-radio
+                        label="Flask проверяет, был ли изменен шаблон, каждый раз, когда он запрашивается."
+                        value="1"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="Blueprints будут заново подгружаться после каждого запроса."
+                        value="2"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="Cookies будут обновляться при каждом запросе."
+                        value="3"
+                        :class="{ correct: answersCheck }"
+                        >
+                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                С помощью какого ограничения(constraint) ставятся внешние ключи в таблице?
-                <div class="normal-header">
+              Если объём содержимого входящих запросов больше значения, заданного в MAX_CONTENT_LENGTH, FLASK будет возвращать код статуса:
+                  <div class="normal-header">
                     <v-radio-group
-                    :disabled="q9d"
                     v-model="question9"
+                    :disabled="q9d"
                     >
-                        <v-radio value="1" label="PRIMARY KEY"></v-radio>
-                        <v-radio value="2" label="FOREIGN KEY" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="3" label="UNIQUE" ></v-radio>
+                        <v-radio
+                        label="405"
+                        value="1"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="412"
+                        value="2"
+                        
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="413"
+                        value="3"
+                        :class="{ correct: answersCheck }"
+                        >
+                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Какой результат вернёт запрос?
-                <v-img src="@/assets/2.png" width="500" height="200"></v-img>
+              Blueprint во Flask - это:
                 <div class="normal-header">
                     <v-radio-group
-                    :disabled="q10d"
                     v-model="question10"
+                    :disabled="q10d"
                     >
-                        <v-radio value="1" label="4"></v-radio>
-                        <v-radio value="2" label="4.0" ></v-radio>
-                        <v-radio value="3" label="5" ></v-radio>
-                        <v-radio value="4" label="5.0" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="5" label="Выведет ошибку" ></v-radio>
+                        <v-radio
+                        label="Подключаемое приложение"
+                        value="1"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="Набор операций, которые могут быть зарегистрированы в приложении"
+                        value="2" :class="{ correct: answersCheck }"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="Файлы конфигурации"
+                        value="3"
+                       
+                        >
+                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                С помощью какой функции в PostgreSQL можно конвертировать данные из одного типа в другой?
+              На каком порту по умолчанию разворачивается сервер Flask:
                 <div class="normal-header">
                     <v-radio-group
-                    :disabled="q11d"
                     v-model="question11"
+                    :disabled="q11d"
                     >
-                        <v-radio value="1" label="Replace()"></v-radio>
-                        <v-radio value="2" label="Cast()" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="3" label="To()" ></v-radio>
-                        <v-radio value="4" label="Length()" ></v-radio>
-                        <v-radio value="5" label="Convert()" ></v-radio>
+                        <v-radio
+                        label="1337"
+                        value="1"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="5000"
+                        value="2" :class="{ correct: answersCheck }"
+                        
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="4000"
+                        value="3"
+                        >
+                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Таблица имеет вид, как на изображении. Напишите запрос к таблице Indexes, который бы выводил количество участков в Московской области.
-                <v-img src="@/assets/3.png" ></v-img>
-                <div class="normal-header">
+              Какой параметр приложения содержит путь к настроенному приложению Flask:
+              <div class="normal-header">
                     <v-text-field v-model="question12" :disabled="q12d" label="Ответ:"></v-text-field>
-                    <v-text-field v-if="q12d" class="correct" disabled value="select count(*) from indexes
-where region = 'МОСКОВСКАЯ ОБЛАСТЬ' ИЛИ select count(indexes) from indexes where region = 'МОСКОВСКАЯ ОБЛАСТЬ'" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q12d" class="correct" disabled value="APPLICATION_ROOT" label="Ответ:"></v-text-field>
                 </div>
             </li>
             <li class="bold-header">
-                Таблица имеет вид, как на изображении выше. Напишите запрос к таблице Indexes, который бы выводил уникальные названия всех городов, длина строки которых больше 5.
-                <div class="normal-header">
-                    <v-text-field v-model="question13" :disabled="q13d" label="Ответ:"></v-text-field>
-                    <v-text-field v-if="q13d" class="correct" disabled value="select distinct city from indexes where length(city) > 5" label="Ответ:"></v-text-field>
-                </div>
-            </li>
-            <li class="bold-header">
-                Таблица имеет вид, как на изображении выше. Напишите запрос к таблице Indexes, который бы выводил индексы участков города Москва в хронологическом порядке.
-                <div class="normal-header">
-                    <v-text-field v-model="question14" :disabled="q14d" label="Ответ:"></v-text-field>
-                    <v-text-field v-if="q14d" class="correct" disabled value="Select index from indexes where region = 'МОСКВА'order by actdate" label="Ответ:"></v-text-field>   
-                </div>
-            </li>
-            <li class="bold-header">
-                С каким типом данных работают функции lower() и Upper()?
-                <div class="normal-header">
+              Какой параметр приложения отвечает за включение/отключение режима отладки:
+<div class="normal-header">
                     <v-radio-group
-                    :disabled="q15d"
-                    v-model="question15"
+                    v-model="question13"
+                    :disabled="q13d"
                     >
-                        <v-radio value="1" label="Строковым" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="2" label="Целочисленным" ></v-radio>
-                        <v-radio value="3" label="Массивами" ></v-radio>
+                        <v-radio
+                        label="DEBUG"
+                        value="1" :class="{ correct: answersCheck }"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="TEMPLATES_AUTO_RELOAD"
+                        value="2"
+                        
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="JSON_SORT_KEYS"
+                        value="3"
+                       
+                        >
+                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Какие названия носят основыные конфигурационные файлы PostgreSQL?
-                <div class="normal-header">
-                    <v-checkbox :disabled="q161d" v-model="question161" label="postgresql.conf" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q162d" v-model="question162" label="pg_hba.conf" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q163d" v-model="question163" label="plsql_info.conf"></v-checkbox>
-                    <v-checkbox :disabled="q164d" v-model="question164" label="postgresqlinfo.conf"></v-checkbox>
-                </div>
-            </li>
-            <li class="bold-header">
-                С помощью какой конструкции можно ограничивать количество выводимых строк?
-                <div class="normal-header">
+              Какой параметр сообщает приложению, что cookie необходимо передавать только по защищённому протоколу?
+<div class="normal-header">
                     <v-radio-group
-                    :disabled="q17d"
-                    v-model="question17"
+                    v-model="question14"
+                    :disabled="q14d"
                     >
-                        <v-radio value="1" label="LIMIT" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="2" label="TOP" ></v-radio>
-                        <v-radio value="3" label="STOP" ></v-radio>
-                        <v-radio value="4" label="N ROWS" ></v-radio>
+                        <v-radio
+                        label="COOKIE_SECURE"
+                        value="1"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="SESSION_COOKIE_SECURE"
+                        value="2" :class="{ correct: answersCheck }"
+                        
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="HTTPS_COOKIES"
+                        value="3"
+                        
+                        >
+                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Что возвращает функция Now()?
-                <div class="normal-header">
+              Напишите название функции, которая создаёт переменную ответа в представлении:
+              <div class="normal-header">
+                    <v-text-field v-model="question15" :disabled="q15d" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q15d" class="correct" disabled value="make_response" label="Ответ:"></v-text-field>
+                </div>
+            </li>
+            <li class="bold-header">
+              Какой параметр приложения нужен для задания секретного ключа?
+<div class="normal-header">
                     <v-radio-group
-                    :disabled="q18d"
+                    v-model="question16"
+                    :disabled="q16d"
+                    >
+                        <v-radio
+                        label="SECRET_KEY_DBMS"
+                        value="1"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="FLASK_SECRET"
+                        value="2"
+                        
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="SECRET_KEY"
+                        value="3"
+                        :class="{ correct: answersCheck }"
+                        >
+                        </v-radio>
+                    </v-radio-group>
+                </div>
+            </li>
+            <li class="bold-header">
+              Напишите название функции, отвечающей за регистрацию blueprint:
+<div class="normal-header">
+                    <v-text-field v-model="question17" :disabled="q17d" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q17d" class="correct" disabled value="register_blueprint" label="Ответ:"></v-text-field>
+                </div>
+            </li>
+            <li class="bold-header">
+              Как подключить статические стили на странице шаблона Flask?
+<div class="normal-header">
+                    <v-radio-group
                     v-model="question18"
+                    :disabled="q18d"
                     >
-                        <v-radio value="1" label="Текущую временную метку" ></v-radio>
-                        <v-radio value="2" label="Текущую временную метку с часовой зоной" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="3" label="Текущую дату" ></v-radio>
-                        <v-radio value="4" label="Текущее время" ></v-radio>
+                        <v-radio
+                        label="Например, в тэге link указать атрибут с параметром href=' url_for('static', filename='style.css') '"
+                        value="1" :class="{ correct: answersCheck }"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="Использовать директиву шаблонизатора {% import static %}"
+                        value="2"
+                        
+                        >
+                        </v-radio>
+                        <v-radio
+                        label=" Нет верного ответа"
+                        value="3"
+                       
+                        >
+                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Какие конструкции могут входить в синтаксис оконной функции?
-                <div class="normal-header">
-                    <v-checkbox :disabled="q191d" v-model="question191" label="Order by" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q192d" v-model="question192" label="Order by … desc" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q193d" v-model="question193" label="Implicit"></v-checkbox>
-                    <v-checkbox :disabled="q194d" v-model="question194" label="Partition by" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q195d" v-model="question195" label="Repartition by"></v-checkbox>
+              С помощью параметра … можно задать хост и порт:
+
+<div class="normal-header">
+                    <v-text-field v-model="question19" :disabled="q19d" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q19d" class="correct" disabled value="SERVER_NAME" label="Ответ:"></v-text-field>
                 </div>
             </li>
             <li class="bold-header">
-                Возможно ли отфильтровать результат оконной функции в том же запросе, где она была задана?
-                <div class="normal-header">
+              Для чего нужны blueprint-ы?
+<div class="normal-header">
                     <v-radio-group
-                    :disabled="q20d"
                     v-model="question20"
+                    :disabled="q20d"
                     >
-                        <v-radio value="1" label="Нет" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="2" label="Да" ></v-radio>
+                        <v-radio
+                        label="Blueprint-ы сжимают статический контент, вследствие чего страница подгружается быстрее"
+                        value="1"
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="Для снижения нагрузки на http-сервер"
+                        value="2"
+                        
+                        >
+                        </v-radio>
+                        <v-radio
+                        label="Для разбиения логики представлений больших приложений"
+                        value="3" :class="{ correct: answersCheck }"
+                        
+                        >
+                        </v-radio>
                     </v-radio-group>
                 </div>
             </li>
@@ -1102,6 +392,13 @@ where region = 'МОСКОВСКАЯ ОБЛАСТЬ' ИЛИ select count(indexes
             <v-btn color="primary" @click="checkAnswers()">Проверить</v-btn>
             <v-btn @click="clearAnswers()">Сбросить результаты</v-btn>
         </v-card-actions>
+
+        <div v-if="this.answersCheck">
+          <div class="bold-header">
+            Баллы: 
+          </div>
+          {{ this.points }}
+        </div>
     </v-card>
 </template>
 
@@ -1122,31 +419,25 @@ export default {
             let points = 0
             this.answersCheck = true
 
-            if (this.question1 == 3) {
+            if (this.question1_3) {
                 points += 1
             }
-            if (this.question2 == 2) {
+            if (this.question1_4) {
                 points += 1
             }
-            if (this.question31 == 1) {
+            if (this.question2 == 3) {
                 points += 1
             }
-            if (this.question32 == 1) {
+            if (this.question3.toLowerCase() == 'jsonify') {
                 points += 1
             }
-            if (this.question33 == 2) {
+            if (this.question4.toLowerCase() == 'redirect') {
                 points += 1
             }
-            if (this.question34 == 1) {
+            if (this.question5.toLowerCase() == 'abort') {
                 points += 1
             }
-            if (this.question4 == 1) {
-                points += 1
-            }
-            if (this.question5 == 2) {
-                points += 1
-            }
-            if (this.question6.toLowerCase() == '1'){
+            if (this.question6.toLowerCase() == 'errorhandler'){
                 points += 1
             }
             if (this.question7 == 2) {
@@ -1155,65 +446,53 @@ export default {
             if (this.question8 == 3) {
                 points += 1
             }
-            if (this.question9 == 2) {
+            if (this.question9 == 3) {
                 points += 1
             }
-            if (this.question10 == 4) {
+            if (this.question10 == 2) {
                 points += 1
             }
             if (this.question11 == 2) {
                 points += 1
             }
             if (
-                (this.question12.toLowerCase()) == ("select count(*) from indexes where region = 'МОСКОВСКАЯ ОБЛАСТЬ'".toLowerCase()) || 
-                (this.question12.toLowerCase()) == ("select count(indexes) from indexes where region = 'МОСКОВСКАЯ ОБЛАСТЬ'".toLowerCase())
+                (this.question12.toLowerCase() == 'application_root')
                ){
                 points += 1
             }
             if (
-                (this.question13.toLowerCase()) == "select distinct city from indexes where length(city) > 5".toLowerCase()
+                this.question13 == 1
                ){
                 points += 1
             }
-            if (
-                (this.question14.toLowerCase()) == ("Select index from indexes where region = 'МОСКВА' order by actdate".toLowerCase()) 
-               ){
+            if (this.question14 == 2){
                 points += 1
             }
-            if (this.question15 == 1) {
+            if (this.question15.toLowerCase() == 'make_response') {
                 points += 1
             }
-            if (this.question161 == true) {
+            if (this.question16 == 3) {
                 points += 1
             }
-            if (this.question162 == true) {
+            if (this.question17.toLowerCase() == 'register_blueprint') {
                 points += 1
             }
-            if (this.question17 == 1) {
+            if (this.question18 == 1) {
                 points += 1
             }
-            if (this.question18 == 2) {
+            if (this.question19.toLowerCase() == 'server_name') {
                 points += 1
             }
-            if (this.question191 == true) {
-                points += 1
-            }
-            if (this.question192 == true) {
-                points += 1
-            }
-            if (this.question194 == true) {
-                points += 1
-            }
-            if (this.question20 == 1) {
+            if (this.question20 == 3) {
                 points += 1
             }
 
-            this.q1d = true
+            this.q1_1d = true
+            this.q1_2d = true
+            this.q1_3d = true
+            this.q1_4d = true
             this.q2d = true
-            this.q31d = true
-            this.q32d = true
-            this.q33d = true
-            this.q34d = true
+            this.q3d = true
             this.q4d = true
             this.q5d = true
             this.q6d = true
@@ -1226,31 +505,47 @@ export default {
             this.q13d = true
             this.q14d = true
             this.q15d = true
-            this.q161d = true
-            this.q162d = true
-            this.q163d = true
-            this.q164d = true
+            this.q16d = true
             this.q17d = true
             this.q18d = true
-            this.q191d = true
-            this.q192d = true
-            this.q193d = true
-            this.q194d = true
-            this.q195d = true
+            this.q19d = true
             this.q20d = true
 
-            console.log('answers' + String(this.answersCheck))
-            console.log(points)
+            this.points = points
         },
 
         clearAnswers() {
             this.answersCheck = false
-            this.q1d = false
+            this.question1_1 = false
+            this.question1_2 = false
+            this.question1_3 = false
+            this.question1_4 = false
+            this.question2 = 0
+            this.question3 = ''
+            this.question4 = ''
+            this.question5 = ''
+            this.question6 = ''
+            this.question7 = 0
+            this.question8 = 0
+            this.question9 = 0
+            this.question10 = 0
+            this.question11 = 0
+            this.question12 = ''
+            this.question13 = 0
+            this.question14 = 0
+            this.question15 = ''
+            this.question16 = 0
+            this.question17 = ''
+            this.question18 = 0
+            this.question19 = ''
+            this.question20 = 0
+
+            this.q1_1d = false
+            this.q1_2d = false
+            this.q1_3d = false
+            this.q1_4d = false
             this.q2d = false
-            this.q31d = false
-            this.q32d = false
-            this.q33d = false
-            this.q34d = false
+            this.q3d = false
             this.q4d = false
             this.q5d = false
             this.q6d = false
@@ -1263,65 +558,30 @@ export default {
             this.q13d = false
             this.q14d = false
             this.q15d = false
-            this.q161d = false
-            this.q162d = false
-            this.q163d = false
-            this.q164d = false
+            this.q16d = false
             this.q17d = false
             this.q18d = false
-            this.q191d = false
-            this.q192d = false
-            this.q193d = false
-            this.q194d = false
-            this.q195d = false
+            this.q19d = false
             this.q20d = false
 
-            this.question1 = 0
-            this.question2 = 0
-            this.question31 = 0
-            this.question32 = 0
-            this.question33 = 0
-            this.question34 = 0
-            this.question4 = 0
-            this.question5 = 0
-            this.question6 = ''
-            this.question7 = 0
-            this.question8 = 0
-            this.question9 = 0
-            this.question10 = 0
-            this.question11 = 0
-            this.question12 = ''
-            this.question13 = ''
-            this.question14 = ''
-            this.question15 = 0
-            this.question161 = false
-            this.question162 = false
-            this.question163 = false
-            this.question164 = false
-            this.question17 = 0
-            this.question18 = 0
-            this.question191 = false
-            this.question192 = false
-            this.question193 = false
-            this.question194 = false
-            this.question195 = false
-            this.question20 = 0
+            this.points = 0
         }
     },
 
 
     data() {
         return {
+            points: 0,
             answersCheck: false,
 
-            question1: 0,
+            question1_1: false,
+            question1_2: false,
+            question1_3: false,
+            question1_4: false,
             question2: 0,
-            question31: 0,
-            question32: 0,
-            question33: 0,
-            question34: 0,
-            question4: 0,
-            question5: 0,
+            question3: '',
+            question4: '',
+            question5: '',
             question6: '',
             question7: 0,
             question8: 0,
@@ -1329,28 +589,21 @@ export default {
             question10: 0,
             question11: 0,
             question12: '',
-            question13: '',
-            question14: '',
-            question15: 0,
-            question161: false,
-            question162: false,
-            question163: false,
-            question164: false,
-            question17: 0,
+            question13: 0,
+            question14: 0,
+            question15: '',
+            question16: 0,
+            question17: '',
             question18: 0,
-            question191: false,
-            question192: false,
-            question193: false,
-            question194: false,
-            question195: false,
+            question19: '',
             question20: 0,
 
-            q1d: false,
+            q1_1d: false,
+            q1_2d: false,
+            q1_3d: false,
+            q1_4d: false,
             q2d: false,
-            q31d: false,
-            q32d: false,
-            q33d: false,
-            q34d: false,
+            q3d: false,
             q4d: false,
             q5d: false,
             q6d: false,
@@ -1363,17 +616,10 @@ export default {
             q13d: false,
             q14d: false,
             q15d: false,
-            q161d: false,
-            q162d: false,
-            q163d: false,
-            q164d: false,
+            q16d: false,
             q17d: false,
             q18d: false,
-            q191d: false,
-            q192d: false,
-            q193d: false,
-            q194d: false,
-            q195d: false,
+            q19d: false,
             q20d: false,
         }
     },
