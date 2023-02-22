@@ -612,30 +612,30 @@
 
         <ol>
             <li class="bold-header">
-                Выберите правильное определение PostgreSQL
+                Выберите правильное определение Map
                 <div class="normal-header">
                     <v-radio-group
                     v-model="question1"
                     :disabled="q1d"
                     >
                         <v-radio
-                        label="PostgreSQL - это язык программирования"
+                        label="это Map-подобная коллекция, позволяющая использовать в качестве ключей только объекты, и автоматически удаляющая их вместе с соответствующими значениями, как только они становятся недостижимыми иными путями."
                         value="1"
                         >
                         </v-radio>
                         <v-radio
-                        label="PostgreSQL - это объектно-реляционная система создания таблиц"
+                        label="коллекция уникальных значений, так называемое «множество»."
                         value="2"
                         >
                         </v-radio>
                         <v-radio
-                        label="PostgreSQL - это объектно-реляционная система управления базами данных"
+                        label="коллекция пар ключ-значение."
                         value="3"
                         :class="{ correct: answersCheck }"
                         >
                         </v-radio>
                         <v-radio
-                        label="PostgreSQL - это объектно-реляционная система создания пользователей"
+                        label="это Set-подобная коллекция, которая хранит только объекты и удаляет их, как только они становятся недостижимыми иными путями."
                         value="4"
                         >
                         </v-radio>
@@ -643,24 +643,24 @@
                 </div>
             </li>
             <li class="bold-header">
-                Прародителем PostreSQL была СУБД:
+                Дайте определение WeakMap
                 <div class="normal-header">
                     <v-radio-group
                     v-model="question2"
                     :disabled="q2d">
                         <v-radio
-                        label="Oracle"
+                        label="это Set-подобная коллекция, которая хранит только объекты и удаляет их, как только они становятся недостижимыми иными путями."
                         value="1"
                         >
                         </v-radio>
                         <v-radio
-                        label="POSTGRES"
+                        label="это Map-подобная коллекция, позволяющая использовать в качестве ключей только объекты, и автоматически удаляющая их вместе с соответствующими значениями, как только они становятся недостижимыми иными путями."
                         value="2"
                         :class="{ correct: answersCheck}"
                         >
                         </v-radio>
                         <v-radio
-                        label="Caché"
+                        label="коллекция пар ключ-значение."
                         value="3"
                         >
                         </v-radio>
@@ -668,7 +668,7 @@
                 </div>
             </li>
             <li class="bold-header">
-                Встроенные языки, с которыми работает PostreSQL
+              Методы с которыми работают коллекция Set
                 <div class="normal-header">
                     <v-container>
                         <v-row
@@ -722,7 +722,7 @@
                                     tile
                                     style="height: 100%"
                                 >
-                                    PL/pgSQL
+                                .add(value)
                                 </v-card>
                                 </v-col>
     
@@ -763,7 +763,7 @@
                                 tile
                                 style="height: 100%"
                             >
-                                PL/Python
+                            .has(value)
                             </v-card>
                             </v-col>
                             
@@ -805,7 +805,7 @@
                                     tile
                                     style="height: 100%"
                                 >
-                                    PL/HTML
+                                .has(key)
                                 </v-card>
                                 </v-col>
                                     <v-col
@@ -845,7 +845,7 @@
                                     tile
                                     style="height: 100%"
                                 >
-                                    PL/Ruby	
+                                .clear()
                                 </v-card>
                                 </v-col>
                                 
@@ -878,7 +878,7 @@
                 </div>
             </li>
             <li class="bold-header">
-                Как называется графический клиент для PostreSQL?
+              Движок JavaScript хранит значения в памяти до тех пор, пока они достижимы (то есть, эти значения могут быть использованы)?
                 <div class="normal-header">
                     <v-radio-group
                     v-model="question4"
@@ -886,25 +886,25 @@
                     >
                         <v-radio
                         value="1"
-                        label="pgAdmin"
+                        label="Да"
                         :class="{correct: answersCheck}"
                         >
                         </v-radio>
                         <v-radio
                         value="2"
-                        label="psql"
+                        label="Нет"
                         >
                         </v-radio>
                         <v-radio
                         value="3"
-                        label="PostgreSQL"
+                        label="Только простые объекты"
                         >
                         </v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Необходимо ли использовать dummy-таблицу при математических расчётах?
+              Если мы используем объект как ключ в WeakMap, то до тех пор, пока существует WeakMap, будет ли существовать этот объект?
                 <div class="normal-header">
                     <v-radio-group
                     v-model="question5"
@@ -925,167 +925,234 @@
                 </div>
             </li>
             <li class="bold-header">
-                Какой результат вернёт запрос SELECT 3/2; ?
+              Укажите строчку с неверным использованием коллекции weakMap:<br>
+<pre>
+let weakMap = new WeakMap();
+let obj = {};
+weakMap.set("test", "Whoops");
+weakMap.set(obj, "ok");
+</pre>
                 <div class="normal-header">
                     <v-text-field v-model="question6" :disabled="q6d" label="Ответ:"></v-text-field>
-                    <v-text-field v-if="q6d" class="correct" disabled value="1" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q6d" class="correct" disabled value='weakMap.set("test", "Whoops");' label="Ответ:"></v-text-field>
                 </div>
             </li>
             <li class="bold-header">
-               Какой результат вернёт запрос?
-               <v-img src="@/assets/1.png" width="500" height="200"></v-img>
+              Как ведёт себя коллекция WeakSet?
                 <div class="normal-header">
                     <v-radio-group
                     v-model="question7"
                     :disabled="q7d">
-                        <v-radio value="1" label="5"></v-radio>
-                        <v-radio value="2" :class="{correct: answersCheck}" label="4"></v-radio>
-                        <v-radio value="3" label="Выведет ошибку"></v-radio>
+                        <v-radio value="1" label="Она полностью аналогична Set, но мы можем добавлять в WeakSet только примитивные значения."></v-radio>
+                        <v-radio value="2" :class="{correct: answersCheck}" label="Объект присутствует в множестве только до тех пор, пока доступен где-то ещё."></v-radio>
+                        <v-radio value="3" label="Как и Set, она поддерживает методы add, has, delete, size, keys()."></v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                С помощью какой команды можно изменить структуру таблицы?
+              Что вернёт вызов alert()?<br>
+<pre>
+let map = new Map([
+  ['1',  'str1'],
+  [1,    'num1'],
+  [true, 'bool1']
+]);
+
+alert( map.get('1') );
+</pre>
                 <div class="normal-header">
                     <v-radio-group
                     :disabled="q8d"
                     v-model="question8"
                     >
-                        <v-radio value="1" label="INSERT"></v-radio>
-                        <v-radio value="2" label="UPDATE"></v-radio>
-                        <v-radio value="3" label="ALTER" :class="{correct: answersCheck}"></v-radio>
+                        <v-radio value="1" label="bool1"></v-radio>
+                        <v-radio value="2" label="num1"></v-radio>
+                        <v-radio value="3" label="str1
+" :class="{correct: answersCheck}"></v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                С помощью какого ограничения(constraint) ставятся внешние ключи в таблице?
+              Что вернёт вызов alert()?<br>
+<pre>
+let obj = {
+  name: "John",
+  age: 30
+};
+
+let map = new Map(Object.entries(obj));
+
+alert( map.get('name'));
+</pre>
                 <div class="normal-header">
                     <v-radio-group
                     :disabled="q9d"
                     v-model="question9"
                     >
-                        <v-radio value="1" label="PRIMARY KEY"></v-radio>
-                        <v-radio value="2" label="FOREIGN KEY" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="3" label="UNIQUE" ></v-radio>
+                        <v-radio value="1" label="30"></v-radio>
+                        <v-radio value="2" label="John" :class="{correct: answersCheck}"></v-radio>
+                        <v-radio value="3" label="name" ></v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Какой результат вернёт запрос?
-                <v-img src="@/assets/2.png" width="500" height="200"></v-img>
+              Выберете корректную информацию о WeakMap
                 <div class="normal-header">
                     <v-radio-group
                     :disabled="q10d"
                     v-model="question10"
                     >
-                        <v-radio value="1" label="4"></v-radio>
-                        <v-radio value="2" label="4.0" ></v-radio>
-                        <v-radio value="3" label="5" ></v-radio>
-                        <v-radio value="4" label="5.0" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="5" label="Выведет ошибку" ></v-radio>
+                        <v-radio value="1" label="ключи в WeakMap должны быть примитивными значениями, а не объектами "></v-radio>
+                        <v-radio value="2" label="удаление ссылки на объект не удалит информацию из объекта WeakMap" ></v-radio>
+                        <v-radio value="3" label="WeakMap поддерживает перебор и методы keys(), values(), entries()" ></v-radio>
+                        <v-radio value="4" label="ключи в WeakMap должны быть объектами, а не примитивными значениями" :class="{correct: answersCheck}"></v-radio>
+                        <v-radio value="5" label="в WeakMap отсутствует метод .has" ></v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                С помощью какой функции в PostgreSQL можно конвертировать данные из одного типа в другой?
+              Какой метод отсутствует у коллекции Set
                 <div class="normal-header">
                     <v-radio-group
                     :disabled="q11d"
                     v-model="question11"
                     >
-                        <v-radio value="1" label="Replace()"></v-radio>
-                        <v-radio value="2" label="Cast()" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="3" label="To()" ></v-radio>
-                        <v-radio value="4" label="Length()" ></v-radio>
-                        <v-radio value="5" label="Convert()" ></v-radio>
+                        <v-radio value="1" label="add(value) "></v-radio>
+                        <v-radio value="2" label="get(value)" :class="{correct: answersCheck}"></v-radio>
+                        <v-radio value="3" label="delete(value)" ></v-radio>
+                        <v-radio value="4" label="has(value)" ></v-radio>
+                        <v-radio value="5" label="clear()" ></v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Таблица имеет вид, как на изображении. Напишите запрос к таблице Indexes, который бы выводил количество участков в Московской области.
-                <v-img src="@/assets/3.png" ></v-img>
+              Мы хотели бы получить массив ключей map.keys() в переменную и далее работать с ними, например, применить метод .push.
+              <br>
+              Но это не выходит:
+              <br>
+              Почему? Что нужно поправить в коде, чтобы вызов keys.push сработал?
+              <br>
+              Ответ должен быть адресован к 5 строке после знака = (без пробелов)
+                <v-img src="@/assets/3.jpg" ></v-img>
                 <div class="normal-header">
                     <v-text-field v-model="question12" :disabled="q12d" label="Ответ:"></v-text-field>
-                    <v-text-field v-if="q12d" class="correct" disabled value="select count(*) from indexes
-where region = 'МОСКОВСКАЯ ОБЛАСТЬ' ИЛИ select count(indexes) from indexes where region = 'МОСКОВСКАЯ ОБЛАСТЬ'" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q12d" class="correct" disabled value="Array.from(map.keys());" label="Ответ:"></v-text-field>
                 </div>
             </li>
             <li class="bold-header">
-                Таблица имеет вид, как на изображении выше. Напишите запрос к таблице Indexes, который бы выводил уникальные названия всех городов, длина строки которых больше 5.
+              Напишите вызов функции map.get("вставить ответ") для возвращения "num1"<br>
+<pre>
+let map = new Map();
+
+map.set("1", "str1");
+map.set(1, "num1"); 
+map.set(true, "bool1");
+</pre>
                 <div class="normal-header">
                     <v-text-field v-model="question13" :disabled="q13d" label="Ответ:"></v-text-field>
-                    <v-text-field v-if="q13d" class="correct" disabled value="select distinct city from indexes where length(city) > 5" label="Ответ:"></v-text-field>
+                    <v-text-field v-if="q13d" class="correct" disabled value="map.get(1)" label="Ответ:"></v-text-field>
                 </div>
             </li>
             <li class="bold-header">
-                Таблица имеет вид, как на изображении выше. Напишите запрос к таблице Indexes, который бы выводил индексы участков города Москва в хронологическом порядке.
+              Из созданной коллекции необходимо удалить секретные документы напишите команду без пробелов, которая сделает это.<br>
+<pre>
+let john = { name: "John" };
+
+let weakMap = new WeakMap();
+weakMap.set(john, "Секретные документы");
+</pre>
                 <div class="normal-header">
                     <v-text-field v-model="question14" :disabled="q14d" label="Ответ:"></v-text-field>
-                    <v-text-field v-if="q14d" class="correct" disabled value="Select index from indexes where region = 'МОСКВА'order by actdate" label="Ответ:"></v-text-field>   
+                    <v-text-field v-if="q14d" class="correct" disabled value="john=null;" label="Ответ:"></v-text-field>   
                 </div>
             </li>
             <li class="bold-header">
-                С каким типом данных работают функции lower() и Upper()?
+              Что вернёт вызов alert для следующего кода?<br>
+<pre>
+let john = { name: "John" };
+let ben = { name: "Ben" };
+
+let visitsCountObj = {};
+
+visitsCountObj[ben] = 234;
+visitsCountObj[john] = 123;
+
+alert( visitsCountObj["[object Object]"] );
+</pre>
                 <div class="normal-header">
                     <v-radio-group
                     :disabled="q15d"
                     v-model="question15"
                     >
-                        <v-radio value="1" label="Строковым" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="2" label="Целочисленным" ></v-radio>
-                        <v-radio value="3" label="Массивами" ></v-radio>
+                        <v-radio value="1" label="123" :class="{correct: answersCheck}"></v-radio>
+                        <v-radio value="2" label="John" ></v-radio>
+                        <v-radio value="3" label="{}" ></v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Какие названия носят основыные конфигурационные файлы PostgreSQL?
+              Выберете корректные варианты обращения к Object.fromEntries:<br>
+<pre>
+let prices = Object.fromEntries([
+  ['banana', 1],
+  ['orange', 2],
+  ['meat', 4]
+]);
+</pre>
                 <div class="normal-header">
-                    <v-checkbox :disabled="q161d" v-model="question161" label="postgresql.conf" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q162d" v-model="question162" label="pg_hba.conf" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q163d" v-model="question163" label="plsql_info.conf"></v-checkbox>
-                    <v-checkbox :disabled="q164d" v-model="question164" label="postgresqlinfo.conf"></v-checkbox>
+                    <v-checkbox :disabled="q161d" v-model="question161" label="prices.orange" :class="{correct: answersCheck}"></v-checkbox>
+                    <v-checkbox :disabled="q162d" v-model="question162" label="prices.meat" :class="{correct: answersCheck}"></v-checkbox>
+                    <v-checkbox :disabled="q163d" v-model="question163" label='prices.["4"]'></v-checkbox>
+                    <v-checkbox :disabled="q164d" v-model="question164" label="prices.2"></v-checkbox>
                 </div>
             </li>
             <li class="bold-header">
-                С помощью какой конструкции можно ограничивать количество выводимых строк?
+                Выберите правильное определение Set
                 <div class="normal-header">
                     <v-radio-group
                     :disabled="q17d"
                     v-model="question17"
                     >
-                        <v-radio value="1" label="LIMIT" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="2" label="TOP" ></v-radio>
-                        <v-radio value="3" label="STOP" ></v-radio>
-                        <v-radio value="4" label="N ROWS" ></v-radio>
+                        <v-radio value="1" label="коллекция уникальных значений, так называемое «множество»" :class="{correct: answersCheck}"></v-radio>
+                        <v-radio value="2" label="коллекция пар ключ-значение." ></v-radio>
+                        <v-radio value="3" label="это Set-подобная коллекция, которая хранит только объекты и удаляет их, как только они становятся недостижимыми иными путями." ></v-radio>
+                        <v-radio value="4" label="это Map-подобная коллекция, позволяющая использовать в качестве ключей только объекты, и автоматически удаляющая их вместе с соответствующими значениями, как только они становятся недостижимыми иными путями." ></v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Что возвращает функция Now()?
+                Выберите правильное определение WeakSet
                 <div class="normal-header">
                     <v-radio-group
                     :disabled="q18d"
                     v-model="question18"
                     >
-                        <v-radio value="1" label="Текущую временную метку" ></v-radio>
-                        <v-radio value="2" label="Текущую временную метку с часовой зоной" :class="{correct: answersCheck}"></v-radio>
-                        <v-radio value="3" label="Текущую дату" ></v-radio>
-                        <v-radio value="4" label="Текущее время" ></v-radio>
+                        <v-radio value="1" label="это Map-подобная коллекция, позволяющая использовать в качестве ключей только объекты, и автоматически удаляющая их вместе с соответствующими значениями, как только они становятся недостижимыми иными путями." ></v-radio>
+                        <v-radio value="2" label="это Set-подобная коллекция, которая хранит только объекты и удаляет их, как только они становятся недостижимыми иными путями." :class="{correct: answersCheck}"></v-radio>
+                        <v-radio value="3" label="коллекция уникальных значений, так называемое «множество»" ></v-radio>
+                        <v-radio value="4" label="коллекция пар ключ-значение." ></v-radio>
                     </v-radio-group>
                 </div>
             </li>
             <li class="bold-header">
-                Какие конструкции могут входить в синтаксис оконной функции?
+              Выберете корректные варианта заполнения коллекции WeakSet<br>
+<pre>
+let visitedSet = new WeakSet();
+
+let john = { name: "John" };
+let pete = { name: "Pete" };
+let mary = { name: "Mary" };
+</pre>
                 <div class="normal-header">
-                    <v-checkbox :disabled="q191d" v-model="question191" label="Order by" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q192d" v-model="question192" label="Order by … desc" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q193d" v-model="question193" label="Implicit"></v-checkbox>
-                    <v-checkbox :disabled="q194d" v-model="question194" label="Partition by" :class="{correct: answersCheck}"></v-checkbox>
-                    <v-checkbox :disabled="q195d" v-model="question195" label="Repartition by"></v-checkbox>
+                    <v-checkbox :disabled="q191d" v-model="question191" label="visitedSet.add(pete);" :class="{correct: answersCheck}"></v-checkbox>
+                    <v-checkbox :disabled="q192d" v-model="question192" label="visitedSet.add(john); " :class="{correct: answersCheck}"></v-checkbox>
+                    <v-checkbox :disabled="q193d" v-model="question193" label='visitedSet.add("Mary");'></v-checkbox>
+                    <v-checkbox :disabled="q194d" v-model="question194" label="visitedSet.add(john);" :class="{correct: answersCheck}"></v-checkbox>
+                    <v-checkbox :disabled="q195d" v-model="question195" label="visitedSet.add(john.name);"></v-checkbox>
                 </div>
             </li>
             <li class="bold-header">
-                Возможно ли отфильтровать результат оконной функции в том же запросе, где она была задана?
+              Отличие WeakMap от Map в том, что ключи должны быть примитивными значениями , а не объектами
                 <div class="normal-header">
                     <v-radio-group
                     :disabled="q20d"
@@ -1146,7 +1213,7 @@ export default {
             if (this.question5 == 2) {
                 points += 1
             }
-            if (this.question6.toLowerCase() == '1'){
+            if (this.question6.toLowerCase() == 'weakMap.set("test", "Whoops");'){
                 points += 1
             }
             if (this.question7 == 2) {
@@ -1165,18 +1232,17 @@ export default {
                 points += 1
             }
             if (
-                (this.question12.toLowerCase()) == ("select count(*) from indexes where region = 'МОСКОВСКАЯ ОБЛАСТЬ'".toLowerCase()) || 
-                (this.question12.toLowerCase()) == ("select count(indexes) from indexes where region = 'МОСКОВСКАЯ ОБЛАСТЬ'".toLowerCase())
+                (this.question12.toLowerCase()) == ("Array.from(map.keys());".toLowerCase())
                ){
                 points += 1
             }
             if (
-                (this.question13.toLowerCase()) == "select distinct city from indexes where length(city) > 5".toLowerCase()
+                (this.question13.toLowerCase()) == "map.get(1)".toLowerCase()
                ){
                 points += 1
             }
             if (
-                (this.question14.toLowerCase()) == ("Select index from indexes where region = 'МОСКВА' order by actdate".toLowerCase()) 
+                (this.question14.toLowerCase()) == ("john=null;".toLowerCase()) 
                ){
                 points += 1
             }
@@ -1240,7 +1306,7 @@ export default {
             this.q20d = true
 
             console.log('answers' + String(this.answersCheck))
-            console.log(points)
+            alert(points)
         },
 
         clearAnswers() {

@@ -42,7 +42,7 @@
                                 link
                                 >
                                     <v-list-item-content>
-                                        История и архитектура PostgreSQL. Установка и базовые принципы администрирования PostgreSQL на Windows и Linux
+                                        Изучение объектов для хранения именованных коллекций и массивов для хранения упорядоченных коллекций в JavaScript и используя Map и Set
                                     </v-list-item-content>
                                 </v-list-item>
                             </router-link>
@@ -52,20 +52,12 @@
                                 link
                                 >
                                     <v-list-item-content>
-                                        Базы данных, таблицы, наполнение таблиц, простые запросы, изменение и удаление данных.  Соединения и подзапросы, группировки и сортировки
+                                        Использование объектов для хранения массивов и именованных коллекций для хранения коллекций в JavaScript WeakMap и WeakSet
                                     </v-list-item-content>
                                 </v-list-item>
                             </router-link>
 
-                            <router-link class="rl-style" to="/section3">
-                                <v-list-item
-                                link
-                                >
-                                    <v-list-item-content>
-                                        Работа с демонстрационной базой данных. Оконные и агрегатные функции
-                                    </v-list-item-content>
-                                </v-list-item>
-                            </router-link>
+                            
                         </v-list-group>
 
                         <router-link class="rl-style" to="/test">
